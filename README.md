@@ -6,15 +6,16 @@ Based on dataset for <<research>> purpose from FEI Face Database, http://fei.edu
 Edited by Gianfrancesco Angelini
 Last-update 12-01-2017
 
-How to make it work
-0. You can just open main.m and click Run.
-1. ...Or you can customize your analysis changing parameter in the 2 sections inside main.m General settings and Analysis cycle settings.
+##How to make it work##
+1. You can just open main.m and click Run.
+2. ...Or you can customize your analysis changing parameter in the 2 sections inside main.m General settings and Analysis cycle settings.
 
-How IT works (default)
-I.    It downloads automatically the dataset and organize it in a folder.
-II.   Prepares the dataset labeling it with a "a" or a "b" in the name.
-III.  Reduces dimensions by PCA, SVD, or image-resize.
-IV.  Loops for a set of explained-variances (for pca and svd):
-    IV.1   Classify through a LDA, a NN and a Naive Bayes.
-V.   Shows results
-           V.1    Shows perf
+##How IT works## ###(default)###
+1. It downloads automatically the dataset and organize it in a folder.
+2. Prepares the dataset labeling it with a "a" or a "b" in the name.
+3. Reduces dimensions by PCA, SVD, or image-resize.
+4. Loops for a set of explained-variances (for pca and svd):
+    1. Classify through a LDA, a NN and a Naive Bayes.
+5. Shows results
+    1. Shows classifiers performances, with ROC curves and confusion matrix.
+    2. Shows the best features for PDA/SVD and LDA.
