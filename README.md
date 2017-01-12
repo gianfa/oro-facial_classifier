@@ -12,10 +12,11 @@ Last-update 12-01-2017
 
 ##How IT works (default)##
 1. It downloads automatically the dataset and organize it in a folder.
-2. Prepares the dataset labeling it with a "a" or a "b" in the name.
+2. Prepares the dataset labeling it with a "a" or a "b" in the pics names.
 3. Reduces dimensions by PCA, SVD, or image-resize.
 4. Loops for a set of explained-variances (for pca and svd):
-    1. Classify through a LDA, a NN and a Naive Bayes.
+    1. Trains a LDA, a NN and a Naive Bayes with the training set.
+    2. Classifies the dataset excluding the test set.
 5. Shows results
     1. Shows classifiers performances, with ROC curves and confusion matrix.
     2. Shows the best features for PDA/SVD and LDA.
