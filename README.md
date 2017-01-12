@@ -1,7 +1,7 @@
 # oro-facial_classifier
 Binary Classifier of oro-facial expressions, born as a university class project by G.Angelini e M.Raimondi.
 Class in Analysis of Biomedical Data and Signals, prof. Vittorio Sanguineti, University of Genoa(Italy), 2015-2016.
-Based on dataset for <<research>> purpose from FEI Face Database, http://fei.edu.br/~cet/facedatabase.html
+Based on dataset for research purpose from FEI Face Database, http://fei.edu.br/~cet/facedatabase.html
 
 Edited by Gianfrancesco Angelini
 Last-update 12-01-2017
