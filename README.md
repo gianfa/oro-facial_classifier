@@ -10,7 +10,7 @@ Last-update 12-01-2017
 1. You can just open main.m and click Run.
 2. ...Or you can customize your analysis changing parameter in the 2 sections inside main.m General settings and Analysis cycle settings.
 
-##How IT works## ###(default)###
+##How IT works (default)##
 1. It downloads automatically the dataset and organize it in a folder.
 2. Prepares the dataset labeling it with a "a" or a "b" in the name.
 3. Reduces dimensions by PCA, SVD, or image-resize.
