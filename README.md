@@ -4,7 +4,6 @@ Class in Analysis of Biomedical Data and Signals, prof. Vittorio Sanguineti, Uni
 Based on dataset for research purpose from FEI Face Database, http://fei.edu.br/~cet/facedatabase.html
 
 Edited by Gianfrancesco Angelini
-Last-update 12-01-2017
 
 ##How to make it work##
 1. You can just open main.m and click Run.
