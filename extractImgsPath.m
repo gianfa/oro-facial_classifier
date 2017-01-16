@@ -1,9 +1,8 @@
 function  indirizzi  = extractImgsPath ( path, ext )
 %% Esplora il path che gli si passa n argomento, collezionando gli indirizzi
-%% delle immagini, di estensione ext, in un cell array.
-
-%url = '../img/smiles'
-%ext = 'jpg';
+%  delle immagini, di estensione ext, in un cell array.
+% path = Path relativo della cartella dei files; es: '../img/smiles';
+% ext = Estensione dei files, es: 'jpg';
 
 % Estraggo gli indirizzi delle immagini contenute nella directory path %
 p = dir( path );
